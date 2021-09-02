@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC1FF55026E14D58005BF515 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FF54F26E14D58005BF515 /* AppCoordinator.swift */; };
 		ECEAB33326D56C34002D56A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEAB33226D56C34002D56A5 /* AppDelegate.swift */; };
 		ECEAB33526D56C34002D56A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEAB33426D56C34002D56A5 /* SceneDelegate.swift */; };
 		ECEAB33C26D56C36002D56A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEAB33B26D56C36002D56A5 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC1FF54F26E14D58005BF515 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		ECEAB32F26D56C34002D56A5 /* mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvvm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEAB33226D56C34002D56A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECEAB33426D56C34002D56A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				ECEAB35D26D64D8E002D56A5 /* Common */,
 				ECEAB34926D579EA002D56A5 /* Resources */,
+				EC1FF54F26E14D58005BF515 /* AppCoordinator.swift */,
 			);
 			path = mvvm;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1FF55026E14D58005BF515 /* AppCoordinator.swift in Sources */,
 				ECEAB33326D56C34002D56A5 /* AppDelegate.swift in Sources */,
 				ECEAB33526D56C34002D56A5 /* SceneDelegate.swift in Sources */,
 			);
