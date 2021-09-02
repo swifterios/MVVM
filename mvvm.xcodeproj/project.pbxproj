@@ -10,6 +10,7 @@
 		EC1FF55026E14D58005BF515 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FF54F26E14D58005BF515 /* AppCoordinator.swift */; };
 		EC1FF55226E1559B005BF515 /* EventListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FF55126E1559B005BF515 /* EventListCoordinator.swift */; };
 		EC1FF55426E157B9005BF515 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FF55326E157B9005BF515 /* EventListViewController.swift */; };
+		EC1FF55626E15D05005BF515 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FF55526E15D05005BF515 /* UIColor+Extensions.swift */; };
 		ECEAB33326D56C34002D56A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEAB33226D56C34002D56A5 /* AppDelegate.swift */; };
 		ECEAB33526D56C34002D56A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEAB33426D56C34002D56A5 /* SceneDelegate.swift */; };
 		ECEAB33C26D56C36002D56A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEAB33B26D56C36002D56A5 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		EC1FF54F26E14D58005BF515 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		EC1FF55126E1559B005BF515 /* EventListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListCoordinator.swift; sourceTree = "<group>"; };
 		EC1FF55326E157B9005BF515 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		EC1FF55526E15D05005BF515 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		ECEAB32F26D56C34002D56A5 /* mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvvm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEAB33226D56C34002D56A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECEAB33426D56C34002D56A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				EC1FF54F26E14D58005BF515 /* AppCoordinator.swift */,
 				EC1FF55126E1559B005BF515 /* EventListCoordinator.swift */,
 				EC1FF55326E157B9005BF515 /* EventListViewController.swift */,
+				EC1FF55526E15D05005BF515 /* UIColor+Extensions.swift */,
 			);
 			path = mvvm;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC1FF55426E157B9005BF515 /* EventListViewController.swift in Sources */,
+				EC1FF55626E15D05005BF515 /* UIColor+Extensions.swift in Sources */,
 				EC1FF55026E14D58005BF515 /* AppCoordinator.swift in Sources */,
 				ECEAB33326D56C34002D56A5 /* AppDelegate.swift in Sources */,
 				ECEAB33526D56C34002D56A5 /* SceneDelegate.swift in Sources */,
