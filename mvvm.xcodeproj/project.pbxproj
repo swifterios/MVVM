@@ -43,6 +43,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ECE9091026E2AD910026EF59 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EC1FF55526E15D05005BF515 /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ECE9091226E2ADB10026EF59 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC1FF55326E157B9005BF515 /* EventListViewController.swift */,
+			);
+			name = Controllers;
+			path = "New Group/Controllers";
+			sourceTree = "<group>";
+		};
+		ECE9091326E2ADD20026EF59 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				EC1FF55126E1559B005BF515 /* EventListCoordinator.swift */,
+				EC1FF54F26E14D58005BF515 /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		ECEAB32626D56C34002D56A5 = {
 			isa = PBXGroup;
 			children = (
@@ -62,12 +88,11 @@
 		ECEAB33126D56C34002D56A5 /* mvvm */ = {
 			isa = PBXGroup;
 			children = (
+				ECE9091026E2AD910026EF59 /* Extensions */,
+				ECE9091226E2ADB10026EF59 /* Controllers */,
+				ECE9091326E2ADD20026EF59 /* Coordinators */,
 				ECEAB35D26D64D8E002D56A5 /* Common */,
 				ECEAB34926D579EA002D56A5 /* Resources */,
-				EC1FF54F26E14D58005BF515 /* AppCoordinator.swift */,
-				EC1FF55126E1559B005BF515 /* EventListCoordinator.swift */,
-				EC1FF55326E157B9005BF515 /* EventListViewController.swift */,
-				EC1FF55526E15D05005BF515 /* UIColor+Extensions.swift */,
 			);
 			path = mvvm;
 			sourceTree = "<group>";
