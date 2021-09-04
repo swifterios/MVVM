@@ -14,6 +14,7 @@
 		ECE9091626E2AFF60026EF59 /* EventsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECE9091426E2AFF60026EF59 /* EventsApp.xcdatamodeld */; };
 		ECE9091926E2B13A0026EF59 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9091826E2B13A0026EF59 /* CoreDataManager.swift */; };
 		ECE9091B26E4017A0026EF59 /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9091A26E4017A0026EF59 /* EventListViewModel.swift */; };
+		ECE9091D26E403ED0026EF59 /* AddEventCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9091C26E403ED0026EF59 /* AddEventCoordinator.swift */; };
 		ECEAB33326D56C34002D56A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEAB33226D56C34002D56A5 /* AppDelegate.swift */; };
 		ECEAB33526D56C34002D56A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEAB33426D56C34002D56A5 /* SceneDelegate.swift */; };
 		ECEAB33C26D56C36002D56A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEAB33B26D56C36002D56A5 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		ECE9091526E2AFF60026EF59 /* EventsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventsApp.xcdatamodel; sourceTree = "<group>"; };
 		ECE9091826E2B13A0026EF59 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		ECE9091A26E4017A0026EF59 /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
+		ECE9091C26E403ED0026EF59 /* AddEventCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventCoordinator.swift; sourceTree = "<group>"; };
 		ECEAB32F26D56C34002D56A5 /* mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvvm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEAB33226D56C34002D56A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECEAB33426D56C34002D56A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			children = (
 				EC1FF55126E1559B005BF515 /* EventListCoordinator.swift */,
 				EC1FF54F26E14D58005BF515 /* AppCoordinator.swift */,
+				ECE9091C26E403ED0026EF59 /* AddEventCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				EC1FF55026E14D58005BF515 /* AppCoordinator.swift in Sources */,
 				ECEAB33326D56C34002D56A5 /* AppDelegate.swift in Sources */,
 				ECEAB33526D56C34002D56A5 /* SceneDelegate.swift in Sources */,
+				ECE9091D26E403ED0026EF59 /* AddEventCoordinator.swift in Sources */,
 				EC1FF55226E1559B005BF515 /* EventListCoordinator.swift in Sources */,
 				ECE9091B26E4017A0026EF59 /* EventListViewModel.swift in Sources */,
 				ECE9091926E2B13A0026EF59 /* CoreDataManager.swift in Sources */,
