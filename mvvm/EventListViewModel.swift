@@ -9,4 +9,9 @@ import Foundation
 
 final class EventListViewModel {
     
+    let title = "Events"
+    
+    func tappedAddEvent() {
+        print("Tapped")
+    }
 }
