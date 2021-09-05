@@ -19,6 +19,7 @@ final class AddEventCoordinator: Coordinator {
         let viewController = UIViewController()
         viewController.view.backgroundColor = .blue
         navigationController.present(viewController, animated: true, completion: nil)
+        
     }
     
     
