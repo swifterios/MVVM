@@ -27,9 +27,5 @@ final class AddEventCoordinator: Coordinator {
     func didFinishAddEvent() {
         parentCoordinator?.childDidFinish(childCoordinator: self)
     }
-    
-    deinit {
-        print("deinit from add event coordinator")
-    }
 }
 

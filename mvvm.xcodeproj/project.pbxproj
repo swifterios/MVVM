@@ -86,6 +86,24 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
+		ECE9092426E4F44E0026EF59 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ECE9091A26E4017A0026EF59 /* EventListViewModel.swift */,
+				ECE9092226E4CB920026EF59 /* AddEventViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		ECE9092526E4F4790026EF59 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				ECE9091826E2B13A0026EF59 /* CoreDataManager.swift */,
+				ECE9091426E2AFF60026EF59 /* EventsApp.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		ECEAB32626D56C34002D56A5 = {
 			isa = PBXGroup;
 			children = (
@@ -105,15 +123,13 @@
 		ECEAB33126D56C34002D56A5 /* mvvm */ = {
 			isa = PBXGroup;
 			children = (
+				ECE9092426E4F44E0026EF59 /* ViewModels */,
 				ECE9091026E2AD910026EF59 /* Extensions */,
 				ECE9091226E2ADB10026EF59 /* Controllers */,
 				ECE9091326E2ADD20026EF59 /* Coordinators */,
 				ECEAB35D26D64D8E002D56A5 /* Common */,
 				ECEAB34926D579EA002D56A5 /* Resources */,
-				ECE9091426E2AFF60026EF59 /* EventsApp.xcdatamodeld */,
-				ECE9091826E2B13A0026EF59 /* CoreDataManager.swift */,
-				ECE9091A26E4017A0026EF59 /* EventListViewModel.swift */,
-				ECE9092226E4CB920026EF59 /* AddEventViewModel.swift */,
+				ECE9092526E4F4790026EF59 /* CoreData */,
 			);
 			path = mvvm;
 			sourceTree = "<group>";
